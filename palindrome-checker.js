@@ -4,7 +4,7 @@ function palindrome() {
   let answer = document.getElementById('answer')
   let w = String(word.value);
 
-  if (w == "") {
+  if (w == "" || w.length === 1){
     return answer.innerHTML = `Please enter a word or phrase.`
   } else {
     let removingSpecialCharacters = w.replace(/[^a-z0-9]/gi, "").toLowerCase()
