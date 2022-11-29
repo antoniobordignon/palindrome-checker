@@ -40,10 +40,6 @@ input {
     section {
         width: 17em
     }
-
-    #checker {
-
-    }
 }
 
 @media (max-width: 402px) {
